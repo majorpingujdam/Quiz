@@ -14,5 +14,5 @@ quizForm.addEventListener('submit', (e) => {
   localStorage.setItem('userResponses', JSON.stringify(userResponses));
 
   // Redirect to the result page
-  window.location.href = 'result.html';
+  window.location.href = '../result/result.html';
 });
