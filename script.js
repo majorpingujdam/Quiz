@@ -10,9 +10,9 @@ quizForm.addEventListener('submit', (e) => {
     userResponses[key] = value;
   }
 
-  // Store user responses in local storage
+  // store user response!!!! researched in try to use jason
   localStorage.setItem('userResponses', JSON.stringify(userResponses));
 
-  // Redirect to the result page
+  // redirect to result
   window.location.href = 'result.html';
 });
